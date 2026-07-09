@@ -13,9 +13,14 @@ dotenv.config();
 const app = express();
 
 // Middlewares
+// Middlewares
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: [
+      "http://localhost:5173",
+      "https://shop-sphere-flame.vercel.app",
+      "https://shop-sphere-mh2xcyco5-samrats-projects-5e9c31d6.vercel.app"
+    ],
     credentials: true,
   })
 );
