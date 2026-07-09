@@ -25,8 +25,8 @@ import OrderSuccess from "../pages/OrderSuccess/OrderSuccess";
 import Orders from "../pages/Orders/Orders";
 import OrderDetails from "../pages/OrderDetails/OrderDetails";
 import Search from "../pages/Search/Search";
-import EditProfile from "../pages/profile/EditProfile";
-import ChangePassword from "../pages/profile/ChangePassword";
+import EditProfile from "../pages/Profile/EditProfile";
+import ChangePassword from "../pages/Profile/ChangePassword";
 
 // ==============================
 // Admin Pages
